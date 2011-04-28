@@ -28,7 +28,7 @@ function WymTidy(options, wym) {
 
     sUrl:            wym._options.basePath + "plugins/tidy/tidy.php",
     sButtonHtml:     "<li class='wym_tools_tidy'>"
-                   + "<a name='CleanUp' href='#'"
+                   + "<a title='Clean up HTML' name='CleanUp' href='#'"
                    + " style='background-image:"
                    + " url(" + wym._options.basePath + "plugins/tidy/wand.png)'>"
                    + "Clean up HTML"
